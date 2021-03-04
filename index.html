@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <style>
+        #botao{
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+<h1>Conversor de Temperatura</h1>
+
+<h4>Temperatura em Celcius</h4>
+<input type="number" id='inputCelcius'><br>
+<input type="button" id="botao" value="Converter" onclick="converterCelcius()">
+<h5 id="resCelFahr">Graus Fahrenheit(°F):</h5>
+<h5 id="resCelKel">Graus Kelvin(K):</h5><br>
+
+<h4>Temperatura em Fahrenheit</h4>
+<input type="number" id="inputFahr"><br>
+<input type="button" id="botao" value="Converter" onclick="converterFahrenheit()">
+<h5 id="resFahrCel">Graus Celcius(°C):</h5>
+<h5 id="resFahrKel">Graus Kelvin:(K):</h5><br>
+
+<h4>Temperatura em Kelvin</h4>
+<input type="number" id="inputKel"><br>
+<input type="button" id="botao" value="converter" onclick="converterKelvin()">
+<h5 id="resKelCel">Graus Celcius(°C):</h5>
+<h5 id="resKelFahr">Graus Fahrenheit(°F):</h5>
+
+<input type="button" id="botao" value="Converter Todos" onclick="converterTodos()">
+
+<script src="script.js"></script>
+
+</body>
+</html>
